@@ -1,0 +1,11 @@
+--- a/include/polarssl/config.h
++++ b/include/polarssl/config.h
+@@ -953,7 +953,7 @@
+  *
+  * Comment this macro to disable 1/n-1 record splitting.
+  */
+-#define POLARSSL_SSL_CBC_RECORD_SPLITTING
++//#define POLARSSL_SSL_CBC_RECORD_SPLITTING
+ 
+ /**
+  * \def POLARSSL_SSL_DISABLE_RENEGOTIATION
